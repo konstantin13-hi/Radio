@@ -5,6 +5,7 @@
 }
 
 .container{
+
 	max-width: 1140px;
 	margin: 0 auto;
 }
@@ -110,6 +111,7 @@ text-align: center;
 	
 }
 
+/* section intensive */
 
  .intensive .container .divide{
 	margin: 15px auto 15px auto;
@@ -157,4 +159,151 @@ text-align: center;
 	background-color: #efefef;
 	min-height: 592px;
 	padding: 80px 0px 90px 0px;
+}
+
+
+
+/*section info*/
+
+.info{
+	background:black;
+	min-height: 565px;
+	padding: 100px;
+	position: relative;
+		
+}
+
+.info__description{
+	display: flex;
+	flex-direction: column;
+	color: #f9bf3b;
+	
+	align-items: flex-end;
+	position: relative;
+    z-index: 2;
+}
+
+.info__text{
+	width: 750px;
+	min-height: 272px;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: right;
+	color: #fff;
+}
+.info__image{
+	position: absolute;
+	z-index: 1;
+	top: 190px;
+	right: calc((100% - 1140px) / 2 + 608px);
+}
+
+
+.after__skills{
+	display: flex;
+	justify-content: space-between;
+}
+
+.after{
+	padding: 80px 0px 102px 0px;
+	background-image:url("/src/img/secondary_bg.jpg");
+	min-height:450px;
+}
+
+.item__icon{
+	margin: 0 auto;
+	background-color:#f9bf3b;
+	width:116px;
+	height:116px;
+	border-radius:60px;
+	display: flex;
+	justify-content: center;
+	align-items:center
+}
+
+
+.skill__text{
+font-weight: 300;
+font-size: 16px;
+text-align: center;
+color: #efefef;
+}
+
+.present__picture{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.present{
+	padding: 80px 0px 80px 0px;
+}
+
+.present__text{
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 150%;
+	text-align: center;
+	color: #252525;
+}
+
+.btn-present{
+	margin: 60px auto 80px auto;
+}
+
+
+.webinar{
+	min-height: 510px;
+	background-color:#252525;
+	padding: 50px 0px 50px 0px;
+}
+
+.webinar__picture{
+	text-align: center;
+}
+.webinar__title{
+	font-weight: 500;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.webinar__date{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f9bf3b;
+}
+
+.webinar__info{
+	font-weight: 500;
+	font-size: 23px;
+	text-align: center;
+	color: #efefef;
+}
+
+.footer{
+  min-height: 165px;
+  background-color:black;
+  padding: 58PX 0 58PX 0;
+}
+
+.footer-links {
+    font-weight: 300;
+font-size: 16px;
+line-height: 150%;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #888
+}
+
+.footer-contact {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 150%;
+	text-decoration-skip-ink: none;
+	text-align: center;
+	color: #888 ;
 }
